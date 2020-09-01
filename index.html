@@ -10,26 +10,25 @@
 </head>
 
 <body>
+    <h1 class="title">JS Quiz</h1>
     <header>
-        <h1>JS Quiz</h1>
         <h2>High Score: <span id="highScoreInitials">XX</span> <span id="highScore">0</span></h2>
         <h2>Last Score: <span id="lastScoreInitials">XX</span> <span id="lastScore">0</span></h2>
-        <h2>Time Remaining: <span id="timer"></span></h2>
+        <h2 class="clock">Time Remaining: <span id="timer"></span></h2>
     </header>
     <main>
         <div class="start-button-container">
-            <button id="start-button">Press to START!</button>
+            <button id="start-button">START QUIZ!</button>
         </div>
         <div class="quiz-container" style="border: solid;">
-            <p class="question" id="question">After pressing start, questions will appear here! Answer choices will
-                appear below!</p>
+            <p class="question" id="question"></p>
             <ul>
                 <li><button id="answer1" disabled="disabled"></button></li>
                 <li><button id="answer2" disabled="disabled"></button></li>
                 <li><button id="answer3" disabled="disabled"></button></li>
                 <li><button id="answer4" disabled="disabled"></button></li>
             </ul>
-            <p class="right-wrong" id="rightWrong">Look here to see if your answer was right or wrong!</p>
+            <p class="right-wrong" id="rightWrong"></p>
         </div>
 
     </main>

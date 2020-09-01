@@ -9,10 +9,51 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-body {
-    font-family: sans-serif;
-    background-color: #bab8c2;
+
+  .title{
+    padding-left: 40px;
+    font-size: 3.2em;
+    margin-bottom: -20px;
   }
+header {
+  background: purple;
+ text-align: right;
+ color: #ddd;
+ padding: 20px 50px 20px 20px;
+ border-top-left-radius: 65% 90%;
+ box-shadow: #d3d3d3 5px -4px 10px;
+} 
+.clock {
+  color:white;
+  font-size: 1.7em;
+
+}
+main {
+  width: 70%;
+  margin: 50px auto;
   
-  
+}
+.start-button-container {
+  text-align: center;
+ margin-bottom: 50px;
+}
+#start-button {
+  background: rgba(128, 0, 128, 0.454);
+  color: white;
+  padding: 10px 200px;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.quiz-container {
+  background: #dedede;
+  text-align: center;
+}  
+.quiz-container ul li {
+  padding: 5px;
+  display:inline;
+}
+.quiz-container ul li button {
+  font-size: 1.5em;
+}
