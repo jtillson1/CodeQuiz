@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Code Quiz</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>JavaScript Quiz</h1>
-            <h2>High Score: <span id="highScoreInitials">XX</span> <span id="highScore">0</span></h2>
-            <h2>Last Score: <span id="lastScoreInitials">XX</span> <span id="lastScore">0</span></h2>
-            <h2>Time Remaining: <span id="countDownClock"></span></h2>
-        </header>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-       
-        
-        <script src="assets/js/script.js" async defer></script>
-    </body>
+<body>
+    <header>
+        <h1>JS Quiz</h1>
+        <h2>High Score: <span id="highScoreInitials">XX</span> <span id="highScore">0</span></h2>
+        <h2>Last Score: <span id="lastScoreInitials">XX</span> <span id="lastScore">0</span></h2>
+        <h2>Time Remaining: <span id="timer"></span></h2>
+    </header>
+    <main>
+        <div class="start-button-container">
+            <button id="start-button">Press to START!</button>
+        </div>
+        <div class="quiz-container" style="border: solid;">
+            <p class="question" id="question">After pressing start, questions will appear here! Answer choices will
+                appear below!</p>
+            <ul>
+                <li><button id="answer1" disabled="disabled"></button></li>
+                <li><button id="answer2" disabled="disabled"></button></li>
+                <li><button id="answer3" disabled="disabled"></button></li>
+                <li><button id="answer4" disabled="disabled"></button></li>
+            </ul>
+            <p class="right-wrong" id="rightWrong">Look here to see if your answer was right or wrong!</p>
+        </div>
+
+    </main>
+    <script src="assets/js/script.js" async defer></script>
+</body>
 </html>
