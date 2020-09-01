@@ -42,7 +42,7 @@ main {
 #start-button {
   background: rgba(128, 0, 128, 0.454);
   color: white;
-  padding: 10px 200px;
+  padding: 10px 40%;
   font-size: 1.2em;
   font-weight: bolder;
 }

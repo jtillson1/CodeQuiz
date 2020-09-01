@@ -167,13 +167,7 @@ var checkAnswer4 = function () {
 
 var quizEnd = function () {
 
-    // Disable answer choices and display text letting the user know the game is over and what to do to restart
-    questionSpan.textContent = "Quiz Over!";
-    answer1.textContent = "Press";
-    answer2.textContent = "start";
-    answer3.textContent = "to try";
-    answer4.textContent = "again!";
-    rightWrong.textContent = "Thanks for playing!"
+    rightWrong.textContent = "Nice Try!"
     startButton.removeAttribute("disabled");
     answer1.setAttribute("disabled", "disabled");
     answer2.setAttribute("disabled", "disabled");
